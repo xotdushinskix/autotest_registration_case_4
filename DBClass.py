@@ -1,6 +1,6 @@
 from elasticsearch import Elasticsearch
 
-es = Elasticsearch(hosts = 'gepard.bintime.com:9200')
+es = Elasticsearch(hosts = 'xxx.bintime.com:1234')
 
 class DB():
   #for all products
