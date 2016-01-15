@@ -22,7 +22,7 @@ class MyTestCase(unittest.TestCase, RandomHelper):
 
     def setUp(self):
         self.driver = webdriver.Firefox()
-        self.driver.get('http://admin:skdf%24%23%26%26%25tg@gepard.bintime.com/')
+        self.driver.get('http://qwerty:ololog@gepard.bintime.com/')
         self.random_string_generator()
 
     def testLogin(self):
